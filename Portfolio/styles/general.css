@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(107, 107, 107);
+}
+
+p, div, a{
+    color: aquamarine;
+    font-family: 'Roboto Mono', monospace;
+}
+
+a{
+    text-decoration: none;
+}

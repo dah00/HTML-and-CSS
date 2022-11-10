@@ -1,0 +1,53 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+}
+
+.logo{
+    font-size: 28px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+}
+
+.menu{
+    display: flex;
+    gap: 40px;
+}
+
+.menu a{
+    font-size: 18px;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.github{
+    color: white;
+}
+
+.github:hover{
+    color: aquamarine;
+}
+
+.resume{
+    font-size: 18px;
+    padding: 10px 12px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: aquamarine;
+    border-style: solid;
+}
+
+.resume:hover{
+    color:black;
+    border-color: aquamarine;
+    background-color: aquamarine;
+}
