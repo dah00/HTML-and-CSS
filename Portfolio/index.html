@@ -2,8 +2,10 @@
 <html>
   <head>
     <title>Obeda Velonjatovo Portfolio</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link rel="stylesheet" href="styles/general.css" />
-    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/navbar.css" />
+    <link rel="stylesheet" href="styles/main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,20 +19,48 @@
   </head>
 
   <body>
-    <header>
-      <div class="logo">VAO</div>
-      <div class="menu">
-        <a href="#Skills">Skills</a>
-        <a href="#Projects">Projects</a>
-        <a href="#Education">Eduction</a>
-        <a href="#Contact">Contact</a>
+    <nav class="navbar">
+      <div class="logo"><a href="#home">O</a></div>
+      <ul class="navbar-links">
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#Projects">Projects</a></li>
+        <li><a href="#Education">Eduction</a></li>
+        <li><a href="#Contact">Contact</a></li>
+        <div class="resume-link">
+          <a class="resume" href="">Resumé</a>
+        </div>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
       </div>
-      <div class="links">
-        <a class="github" href="https://github.com/dah00"
-          ><i class="fa-brands fa-github fa-3x"></i
-        ></a>
-        <a class="resume" href="">Resumé</a>
-      </div>
-    </header>
+    </nav>
+
+    <main>
+      <section class="front-main">
+        <h1 class="Welcome-h1">Welcome to my page! &#128075; &#128515;</h1>
+        <h3 class="brief-about-me">
+          I am <span>Obe</span>da, a Computer Science major at San Jose State
+          University, specializing in frontend development
+        </h3>
+        <hr style="width: 40%" />
+        <div class="external_links">
+          <a class="github" href="https://github.com/dah00"
+            ><i class="fa-brands fa-github fa-3x"></i
+          ></a>
+          <a
+            class="linkedIn"
+            href="https://www.linkedin.com/in/obeda-velonjatovo/"
+            ><i class="fa-brands fa-linkedin-in fa-3x"></i
+          ></a>
+          <a class="gmail" href="mailto: velonjatovoa@gmail.com"
+            ><i class="fa-sharp fa-solid fa-envelope fa-3x"></i
+          ></a>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
   </body>
 </html>

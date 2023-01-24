@@ -1,9 +1,23 @@
+:root{
+    --backgroundColor: rgb(70, 70, 70);
+    --textColor: aquamarine;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 body{
-    background-color: rgb(107, 107, 107);
+    background-color: var(--backgroundColor);
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
 }
 
 p, div, a{
-    color: aquamarine;
+    color: var(--textColor);
     font-family: 'Roboto Mono', monospace;
 }
 
