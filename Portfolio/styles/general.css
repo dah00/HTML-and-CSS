@@ -16,6 +16,15 @@ body{
     padding: 0;
 }
 
+main{
+    /* background-color: rgb(175, 175, 157); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 90vw;
+    margin: 0 auto;
+}
+
 p, div, a{
     color: var(--textColor);
     font-family: 'Roboto Mono', monospace;

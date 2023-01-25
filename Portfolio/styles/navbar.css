@@ -29,7 +29,7 @@ header{
 
 .navbar-links a{
     letter-spacing: 2px;
-    font-weight: bold;
+    font-weight: 300;
     font-size: 18px;
 }
 
@@ -70,6 +70,7 @@ header{
     border-width: 2px;
     border-color: aquamarine;
     border-style: solid;
+    font-weight: 100;
 }
 
 .resume:hover{
@@ -81,7 +82,11 @@ header{
 
 @media screen and (max-width: 1024px){
     .navbar-links{
-        width: 80%;
+        width: 60%;
+    }
+
+    .navbar-links li a, .navbar-links div a{
+        font-size: 14px;
     }
 }
 

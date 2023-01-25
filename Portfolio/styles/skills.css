@@ -1,0 +1,34 @@
+.skills{
+    background-color: rgb(127, 127, 127);
+    min-height: 82vh;
+}
+
+.skills-title{
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-size: 2.5em;
+    color: aquamarine;
+    padding-bottom: 40px;
+}
+
+.skills-container{
+    display: flex;
+    /* background-color: antiquewhite; */
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.skills-container li span{
+    font-size: 1.2em;
+    text-align: center;
+    display: block;
+    color: white;
+}
+
+.agile-img{
+    object-fit: cover;
+    width: 200px;
+}

@@ -2,10 +2,11 @@
 <html>
   <head>
     <title>Obeda Velonjatovo Portfolio</title>
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="initial-scale=1.0, width=device-width" name="viewport" />
     <link rel="stylesheet" href="styles/general.css" />
     <link rel="stylesheet" href="styles/navbar.css" />
-    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/skills.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,7 +21,7 @@
 
   <body>
     <nav class="navbar">
-      <div class="logo"><a href="#home">O</a></div>
+      <div class="logo"><a href="#header">O</a></div>
       <ul class="navbar-links">
         <li><a href="#Skills">Skills</a></li>
         <li><a href="#Projects">Projects</a></li>
@@ -38,7 +39,7 @@
     </nav>
 
     <main>
-      <section class="front-main">
+      <section id="#header" class="front-main">
         <h1 class="welcome">Welcome to Obe's page! &#128515;</h1>
         <h3 class="who-am-I">
           I am <span>Obe</span>da, a Computer Science major at San Jose State
@@ -68,8 +69,86 @@
           </div>
         </div>
       </section>
+
+      <section id="Skills" class="skills">
+        <h1 class="skills-title">Technical Skills</h1>
+        <ul class="skills-container">
+          <li>
+            <iconify-icon
+              inline
+              icon="skill-icons:java-light"
+              width="200"
+            ></iconify-icon>
+            <span>Java</span>
+          </li>
+          <li>
+            <iconify-icon
+              inline
+              icon="vscode-icons:file-type-python"
+              width="200"
+            ></iconify-icon>
+            <span>Python</span>
+          </li>
+          <li>
+            <iconify-icon
+              inline
+              icon="skill-icons:javascript"
+              style="color: purple"
+              width="200"
+            ></iconify-icon>
+            <span>JavaScript</span>
+          </li>
+          <li>
+            <iconify-icon
+              inline
+              icon="vscode-icons:file-type-html"
+              width="200"
+            ></iconify-icon>
+            <span>HTML</span>
+          </li>
+          <li>
+            <iconify-icon
+              inline
+              icon="vscode-icons:file-type-css"
+              width="200"
+            ></iconify-icon>
+            <span>CSS</span>
+          </li>
+          <li>
+            <iconify-icon
+              inline
+              icon="skill-icons:linux-light"
+              width="200"
+            ></iconify-icon>
+            <span>Linux</span>
+          </li>
+          <li>
+            <iconify-icon
+              inline
+              icon="mdi:git"
+              style="color: red"
+              width="200"
+            ></iconify-icon>
+            <span>Git</span>
+          </li>
+          <li>
+            <iconify-icon
+              inline
+              icon="ci:adobe-xd"
+              style="color: purple"
+              width="200"
+            ></iconify-icon>
+            <span>Adobe Xd</span>
+          </li>
+          <li>
+            <img class="agile-img" src="images/agile.png" alt="Agile image" />
+            <span>Agile Methodology</span>
+          </li>
+        </ul>
+      </section>
     </main>
 
     <script src="script.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
   </body>
 </html>
